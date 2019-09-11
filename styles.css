@@ -1,0 +1,10 @@
+.jumbotron{
+	background-image: url(./fab5.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+    font-family: fantasy;
+    color: white;
+    margin-top: -40px;
+    font:bold;
+   
+} 

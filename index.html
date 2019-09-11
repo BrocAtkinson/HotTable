@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hot Table </title>
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Fab 5 Table </h1>
+      <h3> The only restaraunt with 5 types of food and only 5 tables</h3>
+      <hr>
+      <a ><button class="btn btn-success btn-lg"><span class id="b1"></span> View Tables </button></a>
+    
+  </div>
+
+  <form>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Email address</label>
+      <input type="email" class="form-control" id="email" placeholder="name@example.com">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">How many in your party ? </label>
+      <select class="form-control" id="numberInParty">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Name of Party</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+      <a ><button class="btn btn-primary btn-lg"><span class id="b2"></span> Make a reservataion </button></a>
+    </div>
+  </form>
+  
+
+
+      <script>
+ var express = require("express");
+var path = require("path");
+
+var app = express();
+var PORT = process.extended
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+app.post('/index.html', (req, res) => {
+const reservataion = req.body.reservataion
+  res.end()
+
+$("#b1").on("click", function(event) {
+      event.preventDefault();
+      var Tables = {
+        tablenumber: $("#name").val().trim(),
+        cuisine: $("#role").val().trim(),
+        name: $("#age").val().trim(),
+       
+      };
+
+ $("#b2").on("click", function(event) {
+      event.preventDefault();
+      var reservataion = {
+        email: $("#email").val().trim(),
+        numberInParty: $("#numberInParty").val().trim(),
+        name: $("#name").val().trim(),
+      };
+
+ tables = [
+  {
+    tablenumber: "1",
+    cuisine: "BBQ",
+    name: "Texas",
+  },
+  {
+    tablenumber: "2",
+    cuisine: "Mexican",
+    name: "Mexico",
+  },
+  {
+    tablenumber: "3",
+    cuisine: "Italian",
+    name: "Italy",
+  },
+  {
+    tablenumber: "4",
+    cuisine: "mediterianian",
+    name: "Greece",
+  },
+  {
+    tablenumber: "5",
+    cuisine: "Grill",
+    name: "Grill",
+  },
+
+];
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      </script>
